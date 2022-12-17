@@ -1,7 +1,7 @@
 # Utransfer
 
 ### Description
-A cloud based data transfer/storage django application. The meadia files are being stored on [S3 : https://aws.amazon.com/] and for user details MongoDB has been used. To run this application fire a S3 bucket and make a [mongoDB instance : https://cloud.mongodb.com]. 
+A cloud based data transfer/storage django application. The meadia files are being stored on [S3 : https://aws.amazon.com/] and for user details MongoDB has been used. To run this application fire a S3 bucket and make a [mongoDB instance : https://cloud.mongodb.com]. Also change the settings.py as required, you can find comments. The database connector is in file utransfer/utils.py
 
 To run the application on localhost:
 ```
